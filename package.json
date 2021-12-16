@@ -1,0 +1,27 @@
+{
+  "name": "mongo-play",
+  "version": "1.0.0",
+  "description": "Playing with MongoDB",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/angusryer/mongo-play.git"
+  },
+  "keywords": [
+    "mongodb",
+    "mongoose"
+  ],
+  "author": "@angusryer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angusryer/mongo-play/issues"
+  },
+  "homepage": "https://github.com/angusryer/mongo-play#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.1.2"
+  }
+}
