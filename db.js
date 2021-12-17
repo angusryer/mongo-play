@@ -1,7 +1,9 @@
 const mongoose = require("mongoose");
 
+const uri = "" // Add your own mongodb Atlas or local community server uri here
+
 module.exports = mongoose
-	.connect("mongodb://localhost:27017/local", {
+	.connect(uri, {
 		useNewUrlParser: true,
 		useUnifiedTopology: true
 	})
