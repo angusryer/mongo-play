@@ -22,6 +22,6 @@
   "homepage": "https://github.com/angusryer/mongo-play#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^6.1.2"
+    "mongoose": "^6.4.6"
   }
 }
